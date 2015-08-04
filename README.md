@@ -1,1 +1,3 @@
-# ngs_education_hackathon_v002# RNAseqEducationalEnvironment
+# NCBI 2nd Hackathon - RNA-seq Tutorial
+
+
