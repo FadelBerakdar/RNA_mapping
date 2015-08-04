@@ -2,6 +2,12 @@
 layout: post
 ---
 
+### Table of Contents:
+
+1. [Setup](https://github.com/DCGenomics/ngs_education_hackathon_v002/tree/gh-pages/setup)
+2. Other stuff
+
+
 Useful links:
 
 - NCBI [Assembly page](http://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.30) for GRCh38.p4
