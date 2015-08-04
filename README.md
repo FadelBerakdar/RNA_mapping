@@ -12,17 +12,27 @@ Each approach requires the construction of an index file. This file allows the a
   STAR  --runMode genomeGenerate --runThreadN 24 --genomeDir GRC28_star --genomeFastaFiles ~/tan/genome/Homo_sapiens.GRCh38.dna_sm.chromosome.20.fa
   ```
   --------
-  Aug 03 21:35:40 ..... Started STAR run|
-  Aug 03 21:35:40 ... Starting to generate Genome files|
-  Aug 03 21:35:42 ... starting to sort  Suffix Array. This may take a long time...|
-  Aug 03 21:35:43 ... sorting Suffix Array chunks and saving them to disk...|
-  Aug 03 21:36:08 ... loading chunks from disk, packing SA...|
-  Aug 03 21:36:10 ... writing Suffix Array to disk ...|
-  Aug 03 21:36:10 ... Finished generating suffix array|
-  Aug 03 21:36:10 ... starting to generate Suffix Array index...|
-  Aug 03 21:36:33 ... writing SAindex to disk|
-  Aug 03 21:36:34 ..... Finished successfully</a>|
-</div>  
+  Aug 03 21:35:40 ..... Started STAR run |
+  
+  Aug 03 21:35:40 ... Starting to generate Genome files |
+  
+  Aug 03 21:35:42 ... starting to sort  Suffix Array. This may take a long time... |
+  
+  Aug 03 21:35:43 ... sorting Suffix Array chunks and saving them to disk... |
+  
+  Aug 03 21:36:08 ... loading chunks from disk, packing SA... |
+  
+  Aug 03 21:36:10 ... writing Suffix Array to disk ... |
+  
+  Aug 03 21:36:10 ... Finished generating suffix array |
+  
+  Aug 03 21:36:10 ... starting to generate Suffix Array index... |
+  
+  Aug 03 21:36:33 ... writing SAindex to disk  |
+  
+  Aug 03 21:36:34 ..... Finished successfully</a> |
+  
+
   
 
 
