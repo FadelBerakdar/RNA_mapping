@@ -7,7 +7,8 @@ RNA-seq data analysis relies on the alignment to the genome. With this tutorial,
 Each approach requires the construction of an index file. This file allows the algorithm to effeciently map reads to the genome.
 
 ### STAR
-  Index file construction:
+Index file construction:
+ 
   in:
   ```bash 
   $ STAR  --runMode genomeGenerate --runThreadN 24 --genomeDir GRC28_star --genomeFastaFiles ~/tan/genome/Homo_sapiens.GRCh38.dna_sm.chromosome.20.fa
@@ -27,17 +28,17 @@ Each approach requires the construction of an index file. This file allows the a
 ```  
 This will output the following files and directories:
 
-  chrLength.txt
-  chrName.txt
-  Genome
-  SA
-  chrNameLength.txt
-  chrStart.txt
-  genomeParameters.txt
-  SAindex
+  - chrLength.txt
+  - chrName.txt
+  - Genome
+  - SA
+  - chrNameLength.txt
+  - chrStart.txt
+  - genomeParameters.txt
+  - SAindex
 
 
-  Alignment:
+Alignment:
   in:
   ```bash
   $ STAR --genomeDir GRC28_star/  --runThreadN 24 --readFilesIn ~/tan/rawdata/SRR1153470_1.1mil.fastq ~/tan/rawdata/SRR1153470_2.1mil.fastq --outFileNamePrefix SRR1153470_Star
@@ -48,11 +49,11 @@ Aug 03 21:38:00 ..... Started STAR run
 Aug 03 21:38:04 ..... Started mapping  
 ```
 This will output the following files:
-SRR1153470_StarLog.out
-SRR1153470_StarLog.progress.out
-SRR1153470_StarAligned.out.sam
-SRR1153470_StarSJ.out.tab
-SRR1153470_StarLog.final.out  
+- SRR1153470_StarLog.out
+- SRR1153470_StarLog.progress.out
+- SRR1153470_StarAligned.out.sam
+- SRR1153470_StarSJ.out.tab
+- SRR1153470_StarLog.final.out  
 
 
 ### BLASTMAPER
