@@ -8,10 +8,10 @@ Each approach requires the construction of an index file. This file allows the a
 
 ### STAR
   Index file construction:
-  ```BASH 
+  ```bash 
   STAR  --runMode genomeGenerate --runThreadN 24 --genomeDir GRC28_star --genomeFastaFiles ~/tan/genome/Homo_sapiens.GRCh38.dna_sm.chromosome.20.fa
   ```
-```
+```python
   Aug 03 21:35:40 ..... Started STAR run
   Aug 03 21:35:40 ... Starting to generate Genome files
   Aug 03 21:35:42 ... starting to sort  Suffix Array. This may take a long time...
@@ -23,11 +23,17 @@ Each approach requires the construction of an index file. This file allows the a
   Aug 03 21:36:33 ... writing SAindex to disk
   Aug 03 21:36:34 ..... Finished successfully
 ```  
-  
-
-  
-
-
+This will output the following files and directories:
+------------------
+chrLength.txt
+chrName.txt
+Genome
+SA
+chrNameLength.txt
+chrStart.txt
+genomeParameters.txt
+SAindex
+-----------------
 
   Alignment:
   
