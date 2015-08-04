@@ -24,20 +24,32 @@ Each approach requires the construction of an index file. This file allows the a
   Aug 03 21:36:34 ..... Finished successfully
 ```  
 This will output the following files and directories:
-------------------
-chrLength.txt
-chrName.txt
-Genome
-SA
-chrNameLength.txt
-chrStart.txt
-genomeParameters.txt
-SAindex
------------------
+
+  chrLength.txt
+  chrName.txt
+  Genome
+  SA
+  chrNameLength.txt
+  chrStart.txt
+  genomeParameters.txt
+  SAindex
+
 
   Alignment:
-  
-  
+  ```bash
+  STAR --genomeDir GRC28_star/  --runThreadN 24 --readFilesIn ~/tan/rawdata/SRR1153470_1.1mil.fastq ~/tan/rawdata/SRR1153470_2.1mil.fastq --outFileNamePrefix SRR1153470_Star
+  ```
+```python  
+Aug 03 21:38:00 ..... Started STAR run
+Aug 03 21:38:04 ..... Started mapping  
+```
+This will output the following files:
+SRR1153470_StarLog.out
+SRR1153470_StarLog.progress.out
+SRR1153470_StarAligned.out.sam
+SRR1153470_StarSJ.out.tab
+SRR1153470_StarLog.final.out  
+
 
 ### BLASTMAPER
   Index file construction:
